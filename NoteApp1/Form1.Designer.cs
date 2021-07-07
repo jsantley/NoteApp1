@@ -66,7 +66,7 @@ namespace NoteApp1
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(161, 20);
             this.txtTitle.TabIndex = 2;
-            this.txtTitle.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+ //           this.txtTitle.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtMessage
             // 
@@ -75,7 +75,7 @@ namespace NoteApp1
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(161, 167);
             this.txtMessage.TabIndex = 3;
-            this.txtMessage.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            //this.txtMessage.TextChanged += new System.EventHandler(this.txtMessage_TextChanged);
             // 
             // dataGridView1
             // 
@@ -90,7 +90,7 @@ namespace NoteApp1
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(130, 167);
             this.dataGridView1.TabIndex = 4;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+           // this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // New
             // 
